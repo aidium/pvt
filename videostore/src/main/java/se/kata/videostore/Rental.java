@@ -16,4 +16,16 @@ class Rental {
 	public Movie getMovie() {
 		return _movie;
 	}
+
+	double amount() {
+		return _movie.amount(getDaysRented());
+	}
+
+	int frequentRenterPoints() {
+		return _movie.frequentRenterPoints(getDaysRented());
+	}
+
+	String title() {
+		return _movie.getTitle();
+	}
 }
