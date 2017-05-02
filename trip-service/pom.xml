@@ -11,6 +11,8 @@
         <junit.version>4.11</junit.version>
         <mockito.version>1.9.5</mockito.version>
         <objenesis.version>1.0</objenesis.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
